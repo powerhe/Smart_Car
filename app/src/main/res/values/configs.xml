@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_debug">false</bool>
+    <bool name="default_dijkstra">false</bool>
+    <bool name="default_shuffle">false</bool>
+    <bool name="default_jni">false</bool>
+    <bool name="default_validate_start">false</bool>
+    <bool name="default_validate_goal">true</bool>
+    <string name="default_neighbor_selector">NeighborEightDirections</string>
+    <string name="default_heuristic_scheme">HeuristicSquared</string>
+    <integer name="default_car_size">7</integer>
+</resources>

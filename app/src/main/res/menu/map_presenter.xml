@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_navigate"
+        android:icon="@drawable/ic_navigation_white_24dp"
+        android:title="@string/navigate"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_reset"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="@string/reset"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_playground"
+        android:icon="@drawable/ic_shuffle_white_24dp"
+        android:title="@string/playground"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_api"
+        android:icon="@drawable/ic_android_white_24dp"
+        android:title="@string/api_test"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_jni"
+        android:checkable="true"
+        android:enabled="true"
+        android:title="@string/use_jni"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_car_size"
+        android:checkable="true"
+        android:enabled="true"
+        android:title="@string/car_size"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+</menu>

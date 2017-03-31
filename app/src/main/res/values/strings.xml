@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">TangoCar</string>
+    <string name="remoter_app_name">TangoCarRemoter</string>
+
+    <string name="study_mode">Study Mode</string>
+    <string name="mission_mode">Mission Mode</string>
+    <string name="test_view">Test View</string>
+
+    <string name="exception_tango_error">"Tango Exception! Try again!"</string>
+    <string name="exception_tango_invalid">"Tango invalid exception! Try again!"</string>
+    <string name="exception_out_of_date">"Tango Service outdated!"</string>
+    <string name="na">"N/A"</string>
+
+    <string name="int_val_3">"3"</string>
+    <string name="float_val_0_2">"0.2"</string>
+    <string name="float_val_0_01">"0.01"</string>
+    <string name="val_INFINITY">"INFINITY"</string>
+    <string name="set_target_point">"Set Target Point: "</string>
+    <string name="point_x">"X: "</string>
+    <string name="point_y">"Y: "</string>
+    <string name="set_border">"Set Border: "</string>
+    <string name="left">"Left: "</string>
+    <string name="right">"Right: "</string>
+    <string name="top">"Top: "</string>
+    <string name="bottom">"Bottom: "</string>
+    <string name="front">"Front: "</string>
+    <string name="back">"Back: "</string>
+    <string name="set_grid_witdh">"Set Grid Width: "</string>
+    <string name="set_distance">"Min Distance: "</string>
+    <string name="set_ave_distance">"Min Ave Distance: "</string>
+    <string name="set_speed_rate">"Set Speed Rate: "</string>
+    <string name="set_start_delay">"Start Delay: "</string>
+    <string name="set_elect_fence">"Elec Fence: "</string>
+    <string name="set_remote_control">"Remote Control: "</string>
+    <string name="str_map_scope">"Map Scope: "</string>
+    <string name="str_car_status">"Car Status: "</string>
+
+    <string name="str_degree">" degree"</string>
+    <string name="cmd_keep">"Keep"</string>
+    <string name="cmd_turn_left">"Turn Left "</string>
+    <string name="cmd_turn_right">"Turn Right "</string>
+    <string name="cmd_forward">"Forward"</string>
+    <string name="cmd_back">"Back"</string>
+    <string name="cmd_stop">"Stop"</string>
+    <string name="cmd_turn">"Turn "</string>
+
+    <string name="btn_str_target">"Target"</string>
+    <string name="btn_str_compute">"Compute"</string>
+    <string name="btn_str_go">"Go"</string>
+    <string name="btn_str_failed">"Failed"</string>
+    <string name="btn_str_ok">"OK"</string>
+    <string name="btn_str_config">"Config"</string>
+    <string name="btn_str_start">"Start"</string>
+    <string name="btn_str_mode">"View Mode"</string>
+    <string name="btn_str_display">"Display Mode"</string>
+    <string name="btn_str_stop">"Stop"</string>
+    <string name="btn_str_finish">"Finish"</string>
+    <string name="btn_str_back">"Back"</string>
+    <string name="btn_str_clean">"Clean"</string>
+    <string name="btn_str_ignore">"Ignore"</string>
+    <string name="btn_str_request_again">"Request Again"</string>
+    <string name="btn_str_make_sure">"OK"</string>
+    <string name="btn_str_research">"Research"</string>
+    <string name="btn_str_host">"Host"</string>
+    <string name="btn_str_controller">"Controller"</string>
+
+    <string name="compute_path">"Coumputing path"</string>
+
+    <string name="rc_status">"Remote Status: "</string>
+    <string name="receive_info">"Receive Info: "</string>
+    <string name="connected">"Connected"</string>
+    <string name="disconnected">"Disconnected"</string>
+    <string name="disabled">"Disabled"</string>
+    <string name="navigate">Navigate</string>
+    <string name="reset">Regenerate</string>
+    <string name="playground">Playground</string>
+    <string name="api_test">API test</string>
+    <string name="settings">Settings</string>
+    <string name="use_jni">Use jni</string>
+    <string name="car_size">Car size</string>
+
+    <string name="sound_str_remote_control_enable">"Remote control enabled!"</string>
+    <string name="sound_str_remote_control_disable">"Remote control disabled!"</string>
+
+    <string name="sound_str_electronic_fence">"Oh Electronic Fence!"</string>
+    <string name="sound_str_cant_move">"Oh NO! I can\'t move!"</string>
+    <string name="sound_str_cant_turn">"Oh NO! I can\'t turn!"</string>
+    <string name="sound_str_will_turn">"I will turn!"</string>
+    <string name="sound_str_turn_left">"turn left!"</string>
+    <string name="sound_str_turn_right">"turn right!"</string>
+    <string name="sound_str_help_me">"Help me! I can\'t move!"</string>
+    <string-array name="sound_str_freeze">
+        <item>Oh No!</item>
+        <item>Waht are you doing!</item>
+        <item>Let me go please!</item>
+        <item>Don\'t stop me!</item>
+        <item>Give way, and get a way.</item>
+        <item>Could you give me the way?</item>
+        <item>Let me have a look.</item>
+        <item>Let me see</item>
+        <item>Complex terrain</item>
+        <item>What\'s the matter</item>
+        <item>Some obstacles</item>
+        <item>study the terrain</item>
+        <item>Something bad happened</item>
+        <item>What\'s wrong</item>
+        <item>I should calm down</item>
+    </string-array>
+
+    <string name="summary_dijkstra">Sets whether to assign any h value (to cost) with the heuristic. If true, will find the optimal path</string>
+    <string name="summary_shuffle">Set whether to shuffle the order of nodes with the same cost to avoid the bias of the default neighbor order</string>
+    <string name="summary_neighbor_selector">Selects the group of neighboring points to be considered in the next step of the algorithm</string>
+    <string name="summary_heuristic_schemes">Calculates distance for use in determining the heuristic for the path finding algorithm</string>
+
+    <string name="map_saving">Saving Map</string>
+    <string name="save_map_failed_toast_format">"Failed to save MAP '%1$s'."</string>
+    <string name="save_map_success_toast_format">"Saved MAP '%1$s' and ADF (%2$s)."</string>
+    <string name="load_map_failed_toast_format">"Failed to load MAP '%1$s'."</string>
+    <string name="load_map_no_map_toast_format">"No MAP have been saved!"</string>
+
+    <string name="alert_enable_write_settings">"Please allow \'TangoCar\' to modify system settings in next screen."</string>
+    <string name="alert_not_enough_permissions">"Not have enough permissions, the application would can not run normally!"</string>
+    <string name="alert_cant_as_controller">"Can\'t setup as TangoCar Controller, please restart app \'TangoCar\'"</string>
+    <string name="alert_tango_out_of_date">"TangoCore is old version, please update from Google Play Store or update system software!"</string>
+    <string name="alert_enable_location">"Please enable location to search \'TangoCar\' Controller in next screen."</string>
+
+    <string name="toast_not_support_tango">"Your device do not support tango!"</string>
+    <string name="toast_controller_disconnected">"Controller \'%1$s\' disconnected, will research after 3 seconds!"</string>
+    <string name="toast_controller_invalid">"Can\'t connect to Controller \'%1$s\', will research after 3 seconds!"</string>
+    <string name="toast_no_controller">"Can\'t find any Controller, research after 3 seconds!"</string>
+    <string name="toast_connect_controller">"Connecting to Controller \'%1$s\' &#8230;"</string>
+    <string name="toast_engine_start_failed">"Engine start failed!"</string>
+
+    <string name="list_title_no_controller">"No Controller found, tap screen to research"</string>
+    <string name="list_title_has_controller">"Click one Controller to connect."</string>
+    <string name="list_title_searching">"Searching &#8230;"</string>
+
+    <string name="notify_tap_once">"Tap show pose"</string>
+    <string name="notify_tap_twice">"Tap twice show log"</string>
+
+    <string name="notify_select_run">"Please select one run mode as follow:"</string>
+
+    <string name="notify_select_engine">"Please select one engine to run:"</string>
+    <string name="str_engine_simple">"Simple"</string>
+    <string name="str_engine_target">"Target"</string>
+    <string name="str_engine_normal">"Normal"</string>
+    <string name="str_engine_turn_test">"Turn Test"</string>
+    <string name="str_engine_forward_test">"Forward Test"</string>
+</resources>

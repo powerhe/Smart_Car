@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/border_left"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/set_border_left"
+            android:text="0.15" />
+
+        <EditText
+            android:id="@+id/border_right"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/border_left"
+            android:layout_toRightOf="@+id/set_border_right"
+            android:text="0.25" />
+
+        <EditText
+            android:id="@+id/border_top"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/border_left"
+            android:layout_toRightOf="@+id/set_border_top"
+            android:text="0.15" />
+
+        <EditText
+            android:id="@+id/border_bottom"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/border_left"
+            android:layout_toRightOf="@+id/set_border_bottom"
+            android:text="0.18" />
+
+        <EditText
+            android:id="@+id/border_front"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/border_left"
+            android:layout_toRightOf="@+id/set_border_front"
+            android:text="0.15" />
+
+        <EditText
+            android:id="@+id/border_back"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/border_front"
+            android:layout_toRightOf="@+id/set_border_back"
+            android:text="0.1" />
+
+        <TextView
+            android:id="@+id/set_border_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/left"
+            android:layout_alignBaseline="@+id/border_left"
+            android:layout_toEndOf="@+id/titile_set_border" />
+
+        <TextView
+            android:id="@+id/set_border_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/right"
+            android:layout_alignBaseline="@+id/border_left"
+            android:layout_toEndOf="@+id/border_left" />
+
+        <TextView
+            android:id="@+id/titile_set_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_border"
+            android:layout_alignBaseline="@+id/set_border_left"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/set_border_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top"
+            android:layout_alignBaseline="@+id/border_left"
+            android:layout_toEndOf="@+id/border_right"  />
+
+        <TextView
+            android:id="@+id/set_border_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bottom"
+            android:layout_alignBaseline="@+id/border_left"
+            android:layout_toEndOf="@+id/border_top" />
+
+        <TextView
+            android:id="@+id/set_border_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_alignBaseline="@+id/border_front"
+            android:layout_toEndOf="@+id/border_front" />
+
+        <TextView
+            android:id="@+id/set_border_front"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/front"
+            android:layout_alignBaseline="@+id/border_front"
+            android:layout_alignStart="@+id/set_border_left" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/grid_width"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/set_grid_width"
+            android:text="0.05" />
+
+        <EditText
+            android:id="@+id/min_distance"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/grid_width"
+            android:layout_toRightOf="@+id/set_min_distance"
+            android:text="0.5" />
+
+        <EditText
+            android:id="@+id/min_ave_distance"
+            android:layout_width="@dimen/input_width"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/grid_width"
+            android:layout_toRightOf="@+id/set_min_ave_distance"
+            android:text="0.65" />
+
+        <TextView
+            android:id="@+id/set_grid_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_grid_witdh"
+            android:layout_alignBaseline="@+id/grid_width"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/set_min_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_distance"
+            android:layout_alignBaseline="@+id/grid_width"
+            android:layout_toEndOf="@+id/grid_width" />
+
+        <TextView
+            android:id="@+id/set_min_ave_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_ave_distance"
+            android:layout_alignBaseline="@+id/grid_width"
+            android:layout_toEndOf="@+id/min_distance" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/set_speed_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_speed_rate"
+            android:layout_alignBaseline="@+id/speed_seek_bar"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:id="@+id/set_speed_val"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:layout_alignBaseline="@+id/speed_seek_bar"
+            android:layout_toRightOf="@+id/set_speed_rate"/>
+
+        <SeekBar
+            android:id="@+id/speed_seek_bar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:maxHeight="3dp"
+            android:minHeight="1dp"
+            android:layout_toRightOf="@+id/set_speed_val"/>
+
+        <TextView
+            android:id="@+id/set_start_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_start_delay"
+            android:layout_alignBaseline="@+id/speed_seek_bar"
+            android:layout_toRightOf="@+id/speed_seek_bar"/>
+
+        <Switch
+            android:id="@+id/switch_start_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/speed_seek_bar"
+            android:layout_toRightOf="@+id/set_start_delay" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/set_elect_fence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_elect_fence"
+            android:layout_alignBaseline="@+id/set_val_of_elect_fence"
+            android:layout_alignParentStart="true"/>
+
+        <Switch
+            android:id="@+id/switch_elect_fence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/set_val_of_elect_fence"
+            android:layout_toRightOf="@+id/set_elect_fence" />
+
+        <RelativeLayout
+            android:id="@+id/set_val_of_elect_fence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/switch_elect_fence" >
+
+            <TextView
+                android:id="@+id/set_elect_fence_front"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/front"
+                android:layout_alignBaseline="@+id/elect_fence_front"/>
+
+            <EditText
+                android:id="@+id/elect_fence_front"
+                android:layout_width="@dimen/input_width"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/set_elect_fence_front"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/set_elect_fence_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right"
+                android:layout_alignBaseline="@+id/elect_fence_front"
+                android:layout_toRightOf="@+id/elect_fence_front"/>
+
+            <EditText
+                android:id="@+id/elect_fence_right"
+                android:layout_width="@dimen/input_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/elect_fence_front"
+                android:layout_toRightOf="@+id/set_elect_fence_right"
+                android:text="2" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/set_val_of_remote_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/set_remote_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_remote_control"
+            android:layout_alignBaseline="@+id/switch_remote_control"
+            android:layout_alignParentStart="true"/>
+
+        <Switch
+            android:id="@+id/switch_remote_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/set_remote_control" />
+
+    </RelativeLayout>
+</LinearLayout>

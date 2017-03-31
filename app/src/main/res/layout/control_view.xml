@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/clean_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/display_button"
+        android:layout_alignLeft="@+id/finish_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/btn_str_clean"
+        android:onClick="onClickCleanButton"/>
+
+    <Button
+        android:id="@+id/display_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/config_button"
+        android:layout_alignLeft="@+id/finish_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/btn_str_display"
+        android:onClick="onClickDisplayButton"/>
+
+    <Button
+        android:id="@+id/config_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_button"
+        android:layout_alignLeft="@+id/finish_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/btn_str_config"
+        android:onClick="onClickConfigButton"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mode_button"
+        android:layout_alignLeft="@+id/finish_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/btn_str_start"/>
+
+    <Button
+        android:id="@+id/mode_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finish_button"
+        android:layout_alignLeft="@+id/finish_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/btn_str_mode"
+        android:onClick="onClickModeButton"/>
+
+    <Button
+        android:id="@+id/finish_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/btn_str_finish"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickFinishButton"/>
+
+</RelativeLayout>

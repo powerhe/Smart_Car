@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Path finder">
+        <SwitchPreference
+            android:defaultValue="@bool/default_dijkstra"
+            android:key="key_dijkstra"
+            android:summary="@string/summary_dijkstra"
+            android:title="Dijkstra" />
+        <SwitchPreference
+            android:defaultValue="@bool/default_shuffle"
+            android:key="key_shuffle"
+            android:summary="@string/summary_shuffle"
+            android:title="Shuffle" />
+        <ListPreference
+            android:defaultValue="@string/default_neighbor_selector"
+            android:entries="@array/neighbor_selectors"
+            android:entryValues="@array/neighbor_selectors_values"
+            android:key="key_neighbor_selector"
+            android:summary="@string/summary_neighbor_selector"
+            android:title="Neighbor selector" />
+        <ListPreference
+            android:defaultValue="@string/default_heuristic_scheme"
+            android:entries="@array/heuristic_schemes"
+            android:entryValues="@array/heuristic_schemes_values"
+            android:key="key_heuristic_schemes"
+            android:summary="@string/summary_heuristic_schemes"
+            android:title="Heuristic schemes" />
+        <EditTextPreference
+            android:defaultValue="@integer/default_car_size"
+            android:inputType="number"
+            android:key="key_car_size"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Car size" />
+        <SwitchPreference
+            android:defaultValue="@bool/default_validate_start"
+            android:key="key_validate_start"
+            android:title="Validate start" />
+        <SwitchPreference
+            android:defaultValue="@bool/default_validate_goal"
+            android:key="key_validate_goal"
+            android:title="Validate goal" />
+        <SwitchPreference
+            android:defaultValue="@bool/default_jni"
+            android:key="key_use_native"
+            android:summary="Use jni A* algorithm to find path"
+            android:title="Native A*" />
+        <SwitchPreference
+            android:defaultValue="@bool/default_debug"
+            android:key="key_debug"
+            android:title="Verbose log" />
+    </PreferenceCategory>
+</PreferenceScreen>
